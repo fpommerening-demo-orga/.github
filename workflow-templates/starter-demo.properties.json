@@ -1,0 +1,21 @@
+{
+    "name": "My Demo Pipeline",
+    "description": "Ein Starter-Workflow für Demo",
+    "iconName": "dotnet",
+    "categories": [
+        "C#",
+        "CI",
+        ".NET"
+    ],
+    "filePatterns": [
+        "*.csproj",
+        "*.sln"
+    ],
+    "inputs": {
+        "demo_version": {
+            "description": "Welche Version soll für die Demo verwendet werden?",
+            "default": "8.0.x",
+            "required": false
+        }
+    }
+}
